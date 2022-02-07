@@ -6,3 +6,18 @@ router.get('/user', function (req, res) {
 })
 
 module.exports = router;
+
+exports.auth = function(req, res){
+
+}
+
+exports.register = function(req, res){
+
+}
+
+const User = require('../routes/user');
+route.post('/auth', signup.auth);
+
+route.post('/register', login.register);
+
+route.post('/register', logout.register);

@@ -35,3 +35,13 @@ exports.role = function(req, res) {
 exports.isLoggedIn = function(req, res) {
     res.send('NOT IMPLEMENTED:  isLoggedIn');
 };
+
+const User = require('../controllers/user');
+route.post('/auth', User.auth);
+
+route.post('/register', User.register);
+const signUp = req.body.signUp;
+
+const login = req.body.login;
+
+const logout = req.body.logout;

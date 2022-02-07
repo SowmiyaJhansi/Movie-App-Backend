@@ -6,6 +6,11 @@ function Models(mongoose) {
 }
 module.exports = Models;
 
+const bodyParser = require('body-parser');
+const app1 = express();
+
+app1.use(bodyParser.json());
+
 var express = require('express')
 var cors = require('cors')
 var app = express()
