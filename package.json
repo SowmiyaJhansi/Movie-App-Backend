@@ -5,6 +5,8 @@
   "dependencies": {
     "@material-ui/core": "^3.0.3",
     "@material-ui/icons": "^3.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "react-modal": "^3.5.1",
@@ -18,5 +20,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SowmiyaJhansi/Movie-App-Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SowmiyaJhansi/Movie-App-Backend/issues"
+  },
+  "homepage": "https://github.com/SowmiyaJhansi/Movie-App-Backend#readme"
 }

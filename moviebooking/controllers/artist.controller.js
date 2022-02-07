@@ -19,3 +19,11 @@ exports.wiki_url = function(req, res) {
 exports.profile_url = function(req, res) {
     res.send('NOT IMPLEMENTED:  profile_url');
 };
+
+import express from 'express'
+            const router=express.Router()
+            import { findAllArtists } from '../../controllers/artist.js'
+
+            router.get('/all',findAllArtists)
+
+            export default router

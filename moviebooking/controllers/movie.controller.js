@@ -35,3 +35,13 @@ exports.trailer_url = function(req, res) {
 exports.wiki_url = function(req, res) {
     res.send('NOT IMPLEMENTED:  wiki_url');
 };
+
+import express from 'express'
+            const router=express.Router()
+            import { findAllMovies, findOne, findShows } from '../../controllers/movies.js'
+
+            router.get('/search',findShows)
+            router.get('/all',findAllMovies)
+            router.get('/:id',findOne)
+
+            export default router
