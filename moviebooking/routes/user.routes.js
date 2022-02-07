@@ -21,3 +21,7 @@ route.post('/auth', signup.auth);
 route.post('/register', login.register);
 
 route.post('/register', logout.register);
+
+route.post('/register', getCouponCode);
+
+route.post('/register', bookShow);

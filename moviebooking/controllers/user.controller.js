@@ -45,3 +45,7 @@ const signUp = req.body.signUp;
 const login = req.body.login;
 
 const logout = req.body.logout;
+
+const getCouponCode  = req.body.getCouponCode ;
+
+const bookShow  = req.body.bookShow ;
