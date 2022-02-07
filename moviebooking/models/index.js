@@ -26,7 +26,7 @@ app.listen(80, function () {
 var express = require("express");
 var app = express();
 
-app.set('port', process.env.PORT || 8080);
+app.set('port', process.env.PORT || 8085);
 
 app.get('/', function(req, res){
     res.send('Movie App');
